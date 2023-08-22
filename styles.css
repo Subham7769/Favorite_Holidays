@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    background-image: url(https://source.unsplash.com/1000x400/?snow_mountains);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.hero>div>h1{
+    font-size: 80px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 15px black;
+}
+.container>h1,h2{
+    font-size: 50px;
+}
+.container>p{
+    font-size: 25px;
+    text-align: justify;
+}
+.top-5-destination{
+    width: 80vw;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.top-5-destination>ol>li{
+    list-style: none;
+    font-size: 25px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.top-5-destination>ol>li>img{
+    border-radius: 8px;
+}
+.top-5-food{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 80vw;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.food{
+    border-radius: 8px;
+    border: 1ps solid lightgray;
+    margin: 10px;
+    text-align: center;
+}
+.food>img{
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, red, yellow);
+    border-image-slice: 1;
+}
+ul>li{
+    list-style: none;
+}
